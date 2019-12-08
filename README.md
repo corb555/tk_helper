@@ -8,8 +8,12 @@ Helper functions for TTK Widgets
 **Buttons** - routines to enable/disable list of buttons and set a button as 'preferred'  
 **Exit routines** - Helper routines to display message and exit  
 
-_Example:_
+_Set/Get Text Example:_
 
     label = CLabel(parent, **kwargs)
     label.text = 'hello'
     text = label.text
+    
+    entry = CEntry(parent, *args, **kwargs)
+    entry.text = 'hello'
+    text = entry.text
