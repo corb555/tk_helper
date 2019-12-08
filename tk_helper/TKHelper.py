@@ -24,7 +24,6 @@ from tkinter.ttk import Progressbar
 from typing import List
 
 
-
 """
 Provide helper functions for tkinter.ttk widgets:
 CtreeView - Support even/odd row colors, easier item setting
